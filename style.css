@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+section{
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*----header area css start----*/
+header{
+    /* position: absolute; */
+    width: 100%;
+    padding: 20px 100px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #3C3C3C;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+/*---header area css end-----*/
+
+/*----rob davidson section css start----*/
+.davidson{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 100px;
+    align-items: center;
+}
+.davidson .robTxt h1{
+    font-size: 80px;
+    color: #363958;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0px 53px 0px 0px;
+}
+.davidson .robTxt p{
+    color: #3E3E3E;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 0px;
+}
+.davidson .robTxt a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+    padding: 10px 25px;
+}
+.davidson .robImg .main-img{
+    position: relative;
+}
+.davidson .robImg .ellipse{
+    position: absolute;
+    bottom: -60px;
+    right: 115px;
+}
+.robImg{
+    background-image: url(img/Group 33070.png) !important;
+}
+/*----rob davidson section css end----*/
+
+/*---about section start----*/
+.about{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 100px;
+    align-items: center;
+    padding-bottom:70px;
+}
+.about .abtTxt h2{
+    color: #363958;
+    font-size: 48px;
+    font-weight: bold;
+}
+.about .abtTxt p{
+    font-size: 16px;
+    line-height: 24px;
+    color:  #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 0px;
+}
+.about .abtTxt a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 30px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+    color: #fff;
+}
+.abtTxt{
+    width: 50%;
+    padding-left: 50px;
+    margin-top: 80px;
+}
+.abtImg{
+    width: 50%;  
+}
+.abtImg img{
+    width: 450px;
+    height: auto;
+}
+/*---about section end----*/
+/*---project section start----*/
+.main-project{
+    background: #E5E5E5;
+    padding-bottom: 70px;
+}
+.main-tittle-project{
+    background: #E5E5E5;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.main-tittle-project h2{
+    color: #363958;
+    font-size: 48px;
+    letter-spacing: 1px;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 100px;
+    align-items: center;
+}
+.project div{
+    width: 32%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+.project div img{
+    height: 60%;
+    width: 100%;
+}
+.project div h3{
+    padding: 30px 0px;
+    color: #363958;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.project div p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+/*---project section end----*/
+
+/*---inquiry section start----*/
+.main-inquiry{
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.inquiry{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 20px 100px;
+    align-items: center;
+    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    border-radius: 30px;
+    color: #fff;
+}
+.inquiry h2{
+    font-size: 64px;
+    font-style: normal;
+    line-height: 64px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding: 50px 0px;
+}
+.inquiry a{
+    text-decoration: none;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+    padding: 15px 40px;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+/*---inquiry section end----*/
+/*---footer section start----*/
+.footer{
+    display: inline;
+    text-align: center;
+}
+.footer h2{
+    color:  #696871;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.footer h3{
+    color:  #363958;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer ul{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer ul li a{
+    display: inline;
+}
+.footer ul li a img{
+    width: 35%;
+}
+.footer ul li a .be{
+    width: 100% !important ;
+}
+/*---footer section end----*/
+
+
+
+
+
+
+/*----responsive css start----*/
+@media (max-width: 991px)
+{
+    .navigation{
+        display: none;
+    }
+    
+    .toggle
+        {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 20px;
+            height: 20px;
+            background: #0169b2 url(img/menu.png);
+            background-size: 30px;
+            background-repeat: no-repeat;
+            background-position: center;
+            cursor: pointer;
+            z-index: 1000;
+            border-radius: 2px;
+        }
+    .toggle.active
+        {
+            background: #0169b2 url(img/close.png);
+            background-size: 25px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .navigation.active
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        /*---davidson section start---*/
+        .davidson{
+            display: flex;
+            flex-direction: column;
+        }
+        .davidson .robImg .ellipse {
+            position: absolute;
+            right: 160px;
+            top: 54em;
+        }
+        /*----davidson section end-----*/
+        /*---about section start---*/
+        .about{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .abtTxt{
+            display: flex;
+            flex-direction: column;
+            margin-right: 15%;
+            width: 100%;
+        }
+        .about .abtTxt a{
+            margin-right: 70%;
+        }
+        .abtImg{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /*----about section end-----*/
+        .project{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 30px 0px;
+        }
+        .project div{
+            width: 74%;
+            margin: 30px 0px;
+        }
+        
+        .main-tittle-project{
+
+        }
+}
+@media (max-width: 600px){
+    /*---davidson section start---*/
+    .davidson{
+        display: flex;
+        flex-direction: column;
+    }
+    .davidson .robImg .ellipse {
+        position: absolute;
+        right: -30px;
+        top: 63em;
+    }
+    .davidson .robTxt h1{
+        font-size: 80px;
+        padding: 0px;
+    }
+    /*----davidson section end-----*/
+
+    /*---about section start---*/
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .abtTxt {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    .abtTxt h2{
+        padding-top: 30px;
+    }
+    .abtImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .abtTxt a{
+        margin-right: 0%;
+    }
+    /*----about section end-----*/
+}
+
+/*----responsive css end----*/

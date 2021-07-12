@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+        <!----header area start-->
+        <header>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <!----header area end---->
+    </section>
+        <!-----rob davidson section start-->
+        <section>
+            <div class="davidson">
+                <div class="robTxt">
+                    <h1>Hello, I'm <span style="color: #F46060;">Rob Davidson</span></h1>
+                    <p>A full stack allaround designer that placerat<br>
+                        in massa consectetur</p>
+                        <a href="#">Hire me</a>
+                </div>
+                <div class="robImg">
+                    <img src="img/Group 33093.png" class="main-img" alt="">
+                    <img src="img/Ellipse 103.png" class="ellipse" alt="">
+                </div>
+            </div>
+        </section>
+        <!-----rib davidson sectio end----->
+
+        <!-----about section start-->
+        <section>
+            <div class="about">
+                <div class="abtImg">
+                    <img src="img/Group 33092.png" alt="">
+                </div>
+                <div class="abtTxt">
+                    <h2>About</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </section>
+        <!-----about sectio end----->
+
+        <!-----project section start-->
+        <div class="main-tittle-project">
+            <h2><span style="color: #F46060;">LASTET</span> WORKING PROJECT</h2>
+        </div>
+        <section class="main-project">
+           
+            <div class="project">
+                <div>
+                    <img src="img/image 4.png" alt="">
+                    <h3>Power-x-gym (gym website)</h3>
+                    <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.
+                        </p>
+                </div>
+                <div><img src="img/image 5.png" alt="">
+                    <h3>Creative Agency</h3>
+                    <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.
+                        </p>
+                    </div>
+                <div>
+                    <img src="img/image 8.png" alt="">
+                    <h3>Hard Rock Music</h3>
+                    <p>Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.
+                        </p>
+                </div>
+            </div>
+        </section>
+        <!-----project sectio end----->
+        <!-----inquiry sectio start----->
+        <section class="main-inquiry">
+            <div class="inquiry">
+                <h2>Work Inquiry</h2>
+                <a href="#">Let’s Chat</a>
+            </div>
+        </section>
+        <!-----inquiry sectio end----->
+
+        <!---footer section start------->
+        <section class="footer">
+            <h2>Stay connected</h2>
+            <h3>hello@design.com</h3>
+            <ul>
+                <li><a href="#"><img src="img/image 6.png" alt=""></a></li>
+                <li><a href="#"><img src="img/Group.png" class="be"  alt=""></a></li>
+                <li><a href="#"><img src="img/image 7.png" alt=""></a></li>
+            </ul>
+        </section>
+        <!---footer section end---->
+    
+    
+<!----start a toggle menu javascript-->
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+<!----end a toggle menu javascript-->
+</body>
+</html>
